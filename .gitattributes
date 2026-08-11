@@ -1,0 +1,5 @@
+# Showcase repo: mark non-source files so GitHub language stats stay meaningful.
+*.ps1 linguist-documentation=true
+docs/** linguist-documentation=true
+assets/** linguist-vendored=true
+LICENSE linguist-documentation=true
