@@ -1,0 +1,51 @@
+# Secrets & runtime
+.env
+.env.*
+config/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.log
+
+# Build & distribution
+dist/
+
+# IDE
+.idea/
+.gigaide/
+*.iml
+
+# Root-level scripts & legacy (never publish)
+/*.py
+bot_b64.txt
+
+# === Proprietary application (NEVER publish to showcase repo) ===
+launcher_gui.py
+talon.py
+requirements.txt
+Dockerfile
+docker-compose.yml
+*.bat
+
+tools/
+tests/
+
+# Buyer & seller docs (only in paid ZIP or local)
+docs/BUYER_GUIDE.md
+docs/PUBLISH_CHECKLIST.md
+docs/SALES.md
+docs/LICENSE_SELLER.md
+docs/DIGISELLER_SETUP.md
+docs/DIGISELLER_AUTO_DELIVERY.md
+docs/MARKETPLACE_CARD.md
+docs/AVITO_SETUP.md
+docs/MCP_SETUP.md
+docs/COMPETITOR_MONITOR.md
+docs/SOCIAL_POSTS.md
+docs/TOPBRYANSK_ADS.md
+docs/gui-launcher.md
+
+# Env template reveals internal structure
+.env.example
