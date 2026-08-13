@@ -26,7 +26,7 @@
 │  Launcher GUI                         │
 │  · логин/пароль napriem               │
 │  · выбор hospital / dept / specialist │
-│  · интервал опроса                    │
+│  · интервал опроса и даты талона    │
 └───────────────┬───────────────────────┘
                 │ сохранение настроек
                 ▼
@@ -34,6 +34,7 @@
 │  Bot engine (subprocess)              │
 │  · refresh session token              │
 │  · poll available slots               │
+│  · filter by DATE_FROM / DATE_TO      │
 │  · book on match                      │
 └───────────────┬───────────────────────┘
                 │
